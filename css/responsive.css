@@ -9,7 +9,7 @@
         text-align: justify;
     }
     .banner-right img{
-        width: 400px;
+        max-width: 400px;
         height: fit-content;
     }
     .brand-section{
@@ -26,6 +26,10 @@
        display: grid;
        grid-template-columns: repeat(2,1fr);
    }
+   .product-card img{
+    width: 100%;
+    height: 296px;
+}
   
 }
 
@@ -54,12 +58,20 @@
    .banner-left P{
        text-align: center;
    }
+   .banner-right img{
+    width: 100%;
+    height: fit-content;
+}
    .brand-section{
        grid-template-columns: repeat(3,1fr);
        gap: 10px;
    }
    .products{
        grid-template-columns: 1fr;
+   }
+   .product-card img{
+       width: 100%;
+       height: 296px;
    }
    .contact-section{
        flex-direction: column;
@@ -99,6 +111,10 @@
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
     }
+    .product-card img{
+        width: 100%;
+        height: auto;
+    }
 
 
     
@@ -119,5 +135,9 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .product-card img{
+        width: 100%;
+        height: auto;
     }
 }
