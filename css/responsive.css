@@ -74,5 +74,50 @@
     color: var(--primary-color);
     text-align: center;
 }
+.banner-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
     
+}
+
+@media (max-width:460px) {
+    .banner-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+   .banner-left h1{
+       font-size: 30px;
+   }
+    .banner-left p{
+        font-size: 14px;
+    }
+    .brand-section{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
+
+    
+}
+
+@media (max-width:430px) {
+    .banner-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-right img{
+        max-width: 300px;
+        height: fit-content;
+    }
+    .contact-form-right form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
