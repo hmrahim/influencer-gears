@@ -58,11 +58,12 @@ body{
     padding: 10px;
     
 }
-.bar{
-    display: none;
+.bar-label{
     font-size: 30px;
     color: var(--primary-color);
+    
 }
+
 input[type="checkbox"]{
     display: none;
 }
