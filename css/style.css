@@ -23,16 +23,7 @@ body{
     margin: 0 auto;
 
 }
-header{
-    position:fixed;
-    
-    left: 0;
-    right: 0;
-    bottom: 450px;
-    margin-bottom:100px;
-    z-index: 5;
-    background-color: tomato;
-}
+
 :root{
     --primary-color:#3A3A3A;
     --secendery-colo:#E02C6D;
@@ -57,7 +48,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 10px;
     
 }
@@ -270,7 +261,6 @@ input[type="checkbox"]{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: ;
 }
 .contact-form-right label{
     color: var(--primary-color);
