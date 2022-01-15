@@ -23,6 +23,16 @@ body{
     margin: 0 auto;
 
 }
+header{
+    position:fixed;
+    
+    left: 0;
+    right: 0;
+    bottom: 450px;
+    margin-bottom:100px;
+    z-index: 5;
+    background-color: tomato;
+}
 :root{
     --primary-color:#3A3A3A;
     --secendery-colo:#E02C6D;
@@ -51,6 +61,15 @@ body{
     padding: 10px;
     
 }
+.bar{
+    display: none;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+input[type="checkbox"]{
+    display: none;
+}
+
 .website-title{
     flex: 1;
 }
@@ -65,15 +84,15 @@ body{
     justify-content: flex-end;
     flex: 2;
 }
-.menu ul{
+.top-menu{
     display: flex
 }
-.menu ul li{
+.top-menu li{
     list-style: none;
     margin: 0;
-    margin-left: 34px;
+    margin-left: 30px;
 }
-.menu ul li a{
+.top-menu li a{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -103,6 +122,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 10px;
+    margin-top: 200px;
 }
 .banner-left{
     flex: 1;
