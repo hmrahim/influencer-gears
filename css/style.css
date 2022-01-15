@@ -37,7 +37,13 @@ body{
     display: inline-block;
     margin: 20px 0;
     border-radius: 41px;
+    border: 1px solid var(--secendery-colo);
+    transition: .5s;
 
+}
+.primary-btn:hover{
+    background-color: transparent;
+    color: var(--secendery-colo);
 }
 
 /* ----------------------
@@ -113,7 +119,7 @@ input[type="checkbox"]{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 .banner-left{
     flex: 1;
