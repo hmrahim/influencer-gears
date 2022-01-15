@@ -61,7 +61,7 @@ body{
 .bar-label{
     font-size: 30px;
     color: var(--primary-color);
-    
+    display: none;
 }
 
 input[type="checkbox"]{
